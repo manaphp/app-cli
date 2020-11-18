@@ -15,4 +15,6 @@ return [
         'redis'  => env('REDIS_URL'),
         'logger' => ['level' => env('LOGGER_LEVEL', 'info')]
     ],
+    'plugins'    => [],
+    'tracers'    => []
 ];

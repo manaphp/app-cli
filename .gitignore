@@ -6,4 +6,4 @@
 /*.tar
 /*.zip
 /*.bak
-/app/Controllers/TestController.php
+/app/Commands/TestController.php
