@@ -1,9 +1,7 @@
-version: "2"
-services:
-  cli:
-    image : manaphp/php74:210801
-    volumes:
+version : "3.8"
+services :
+  cli :
+    image : manaphp/php80:220528
+    volumes :
       - ./:/var/www/html
-      - /data/volumes/${COMPOSE_PROJECT_NAME}/cli/data:/var/www/html/data
-      - /data/volumes/${COMPOSE_PROJECT_NAME}/cli/tmp:/var/www/html/tmp
-    restart: always
+    restart : always

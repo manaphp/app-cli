@@ -1,4 +1,5 @@
 <?php
+declare(strict_types=1);
 
 namespace App\Commands;
 
@@ -11,6 +12,6 @@ class TestCommand extends Command
      */
     public function defaultAction($name = 'manaphp')
     {
-        $this->console->debug(['hello %s!', $name]);
+        $this->console->debug(sprintf('hello %s!', $name));
     }
 }
